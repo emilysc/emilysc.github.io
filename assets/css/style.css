@@ -1,0 +1,153 @@
+* {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #dddddd;
+}
+h1, h2, h3{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.Header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.Header h1 {
+    background: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    padding:20px;
+}
+
+.Header ul {
+    float: right;
+}
+
+.Header ul li {
+    float: left;
+    padding: 20px;
+}
+
+.Section {
+    background: #ffffff;
+    padding:20px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    overflow: auto;
+}
+
+.Section h1 {
+    color: #ffffff;
+    color: #4aaaa5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* This section is for "AboutMe page" */
+ .Section.AboutMe img {
+     float: left;
+     margin:20px;
+ }
+.Section p {
+    line-height: 2em;
+}
+
+/* This section is for "Portfolio page" */
+.imageWithCaption {
+    position: relative;
+    float:left;   
+    width: 33.3%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+}
+.imageWithCaption img {
+    width: 100%
+}
+
+.imageWithCaption div {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
+
+/* This section is for "Contact page" */
+.Section.Contact {
+    margin-bottom: 280px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+textarea[id=messageInput] {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-color: rgb(238,238,238);
+
+}
+
+input[type=button], input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button {
+    padding: 8px 25px;
+    background: #4aaaa5;
+    color: white;
+    border: 0;
+}
+
+.Footer {
+    background: #666666;
+    padding-top:40px;
+    margin-top: 10px;
+    border-top: 10px solid #4aaaa5;
+}
+
+.Footer p {
+    color: #ffffff;
+    text-align: center;
+}
