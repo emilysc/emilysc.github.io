@@ -88,6 +88,9 @@ h1, h2, h3{
     background: #4aaaa5;
     color: #ffffff;
 }
+.imageWithCaption a {
+    color:white;
+}
 
 
 /* This section is for "Contact page" */
